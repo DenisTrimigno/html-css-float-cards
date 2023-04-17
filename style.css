@@ -4,6 +4,41 @@
     box-sizing: border-box;
 }
 
+/* GENERALI */
+
 body{
     font-family: 'Fredoka', sans-serif;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(210, 64, 113);
+}
+
+.subtitle{
+    text-align: center;
+
+}
+
+/* UTILITIES */
+.container {
+    max-width: 1170px;
+    margin: 50px auto;
+}
+
+.row {
+    width: 100%;
+    background-color: red;
+}
+
+.col {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+    height: 150px;
+    background-color: blanchedalmond;
 }
